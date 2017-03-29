@@ -4,7 +4,8 @@
   "description": "",
   "main": "./build/settings.js",
   "scripts": {
-    "build": "webpack --progress --colors --config ./webpack.config.js"
+    "build": "webpack --progress --colors --config ./webpack.config.js",
+    "test": "node ./test/spec.js"
   },
   "author": "",
   "license": "ISC",
