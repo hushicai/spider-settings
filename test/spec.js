@@ -1,4 +1,3 @@
-const path = require('path')
-const settings = require(path.resolve(__dirname, '../'));
+import settings from '../';
 
 console.log(settings);

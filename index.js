@@ -2,6 +2,7 @@
  * @file 配置信息
  * @author hushicai(bluthcy@gmail.com)
  */
+
 function _get(db) {
   return {
     host: 'localhost',

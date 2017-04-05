@@ -2,16 +2,17 @@
   "name": "spider-settings",
   "version": "1.0.0",
   "description": "",
-  "main": "./build/settings.js",
+  "main": "./index.js",
   "scripts": {
-    "build": "webpack --progress --colors --config ./webpack.config.js",
-    "test": "node ./test/spec.js"
+    "test": "babel-node ./test/spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
     "webpack": "^2.2.1"
   }
 }
