@@ -11,7 +11,7 @@ function _get(db) {
   }
 }
 
-export default {
+module.exports = {
   webconfig: {
     host: 'localhost',
     port: 3000
