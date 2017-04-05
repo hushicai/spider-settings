@@ -11,17 +11,8 @@ function _get(db) {
   }
 }
 
-module.exports = {
-  webconfig: {
-    host: 'localhost',
-    port: 3000
-  },
+exports = require('./conf/redis');
 
-  rule_redis_db: _get(0),
+exports.webconfig = require('./conf/webconfig');
 
-  url_redis_db: _get(1),
-
-  report_redis_db: _get(2),
-
-  proxy_redis_db: _get(3)
-};
+module.exports = exports;
